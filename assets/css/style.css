@@ -1,0 +1,1276 @@
+
+/*general*/
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+   list-style: none;
+   
+
+}
+a{
+    text-decoration: none;
+}
+/*navbar*/
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/resturant\ cover.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+    
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-bottom: 15px;
+    background-color: #141d256e;
+    overflow: hidden;
+    
+
+}
+
+.logo{ 
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+.logo img{
+    width: 45%;
+    
+
+}
+.nav-list{
+    float: left;
+    width: 40%;
+    margin-left: 350px;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+
+.navbar ul li{
+   display: inline-block;
+   padding-left: 30px;
+   font-size: 20px;
+   font-weight: 100;
+   
+}
+.navbar ul li a{
+    color: white;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+
+/*header-content*/
+
+.header-content{
+    text-align: center;
+    margin-top: 25px;
+    overflow: hidden;
+    padding-top: 70px;
+}
+.details{
+    margin-top: 15px;
+
+}
+.details h1{
+    font-size: 70px;
+    color: white;
+    font-family: 'Alegreya', serif;
+
+}
+.details h1 span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.buttons a{
+    margin-top: 50px;
+     color: azure;
+    font-size: 17px;
+    background-color:#c1ab84;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 30px ;
+    border-radius: 5px;
+    margin-left: 15px;
+    
+}
+.buttons .white-button{
+    background-color:white;
+    color: black;
+}
+.buttons a:hover{
+    background-color:white;
+    color: black;
+}
+.buttons .white-button:hover{
+    background-color: rgba(255, 255, 255, 0.738);
+
+}
+/*side-bar*/
+.side-bar{
+    position: fixed;
+    top: 200px;
+    right: 0;
+    width: 60px;
+    border-radius: 5px 0  0 5px;
+    background-color: #fff;
+    padding: 20px 20px;
+   
+}
+.side-bar a{
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+}
+
+.side-bar a i:hover{
+    color: #0088ff;
+
+}
+@media screen and (max-width: 576px) {
+    /*header*/
+   /*navbar*/
+    .navbar{
+        padding-bottom: 20px;
+    }
+    .logo{ 
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        float: none;
+        
+    }
+    .logo img{
+        width: 50%;
+        
+    }
+    .nav-list{
+        width: 100%;
+        float: none;
+        margin-top: 10px;
+        margin-left: 0px;
+        
+    }
+    
+    .navbar ul li{
+       padding-left: 5px;
+       font-size: 17px;
+       font-weight: 100;
+    }
+    /*header-content*/
+    .header-content{
+        margin-top: 100px;
+    }
+    .header-content img{
+        width: 250px;
+        height: 150px;
+
+    }
+   
+    .details h1{
+        font-size: 30px;
+    
+    }
+    .details h1 span{
+        font-size: 17px;
+    }
+    
+    .buttons a{
+        margin-top: 30px;
+        padding: 10px 20px ;
+        margin-left: 10px;
+        
+    }
+    /*sidebar*/
+    .side-bar{
+        position: fixed;
+        top: 150px;
+        width: 40px;
+        padding: 20px 10px;
+       
+    }
+    
+}  
+   
+@media screen and (min-width:799px) and (max-width: 992px) {
+    .navbar{
+        width: 100%;        
+    
+    }
+    .logo{ 
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        float: none;
+        
+    }
+    .logo img{
+        width: 40%;
+         }
+
+    .nav-list{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+    
+    .navbar ul li{
+       padding-left: 40px;
+       font-size: 25px;
+    }
+    /*header-content*/
+    .header-content{
+        padding-bottom: 150px;
+        margin-top: 250px;
+    }
+    .header-content img{
+        width: 450px;
+        height: 250px;
+
+    }
+    .details{
+        margin-top: 25px;
+    
+    }
+    .details h1{
+        font-size: 50px;
+    
+    }
+    .details h1 span{
+        font-size: 37px;
+    }
+    
+    .buttons a{
+        margin-top: 30px;
+        font-size: 27px;
+        padding: 30px;
+        margin-left: 20px;
+        
+    }
+    /*sidebar*/
+    .side-bar{
+        top: 300px;
+        right: 1px;
+        width: 50px;
+        background-color: #fff;
+        padding: 30px 40px;
+       
+    }
+    .side-bar a{
+        width: 100%;
+        font-size: 20px;
+        line-height: 40px;
+    }  
+    .side-bar a i{
+        font-size: 25px;
+    }
+   
+
+}
+
+
+/* section-one*/
+.section-one{
+    width:80% ;
+    margin: auto;    
+    overflow: hidden;
+}
+.chef-image{
+    width: 40%;
+    float: left;
+    margin: 50px 50px;
+}
+
+
+.chef-image img{
+    width: 100%;
+}
+.info{
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+.info h2{
+    font-weight: 500;
+    font-size: 45px;
+    font-family: 'Alegreya', serif;
+
+}
+.info span{
+    font-size: 25px;
+    color: #c1ab84;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+.info p{
+    font-size:18px ;
+    line-height:30px ;
+    font-family: 'Alegreya', serif;
+
+}
+.section1-icons{
+    float: left;
+    width: 100%;
+    
+
+}
+.section1-icons .section1-icon i{
+    text-align: center;
+    width: 50px;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: #c1ab84;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.section1-icons .section1-icon p{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+
+}
+@media screen and (max-width: 576px){
+/*section-one*/
+.section-one{
+    width:100% ;
+    padding: 20px;
+  
+}
+.chef-image{
+    width: 50%;
+    float: none;
+    margin: auto;
+}
+
+
+.chef-image img{
+    width: 100%;
+}
+.info{
+    float: none;
+    width: 80%;
+    margin: auto;
+    
+}
+.info h2{
+    font-weight: 300;
+    font-size: 20px;
+
+}
+.info span{
+    font-size: 15px;
+  
+}
+.info p{
+    font-size:12px ;
+}
+
+.section1-icons .section1-icon i{
+    font-size: 15px;
+}
+
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+/*section-one*/
+    .section-one{
+        width:100% ;
+      
+    }
+    .chef-image{
+        width: 50%;
+        float: none;
+        margin: auto;
+    }
+    
+    
+    .chef-image img{
+        width: 100%;
+    }
+    .info{
+        float: none;
+        width: 50%;
+        margin: auto;
+        
+    }
+    .info h2{
+        font-size: 30px;
+    
+    }
+    .info span{
+        font-size: 25px;
+        
+    }
+    .info p{
+        font-size:15px ;
+       
+    
+    }
+ 
+
+}
+
+ /*section2 */
+ .section2{
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+ }
+ .section-two{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    
+ }
+ .section2-container{
+ 
+    width: 50%;
+    margin-top: 150px;
+    float: left;
+    
+
+ }
+ .section2-container h2{
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+
+ }
+ .section2-container h2 span{
+    font-family: 'Dancing Script', cursive;
+
+    font-size: 25px;
+    color: #c1ab84;
+    font-style: italic;
+
+ }
+ .section2-container p{
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 35px;
+    font-family: 'Alegreya', serif;
+
+ }
+ .section2-icons{
+    
+    width: 100%;
+
+}
+.section2-icons .section2-icon i{
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.section2-icons .section2-icon p{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+    font-family: 'Alegreya', serif;
+
+ }
+
+
+.section2-image{
+    width: 50%;
+    float: left;
+    margin-top: 160px;
+    padding-left: 50px;
+
+}
+.section2-image img{
+    width: 100%;
+}
+@media screen and (max-width: 576px){
+    /*section2*/
+    .section-two{
+        margin: auto;
+        width: 80%;
+    }
+     .section2-container{
+        width: 100%;
+        margin-top: 15px;
+     }
+     .section2-container h2{
+        font-size: 20px;
+     }
+     .section2-container h2 span{
+        font-size: 18px;    
+     }
+     .section2-container p{
+        font-size: 15px;
+        margin-top: 25px;
+    
+     }
+     .section2-icons{
+        width: 100%;
+    
+    }
+    .section2-icons .section2-icon i{
+        font-size: 15px;
+    }
+    
+    .section2-icons .section2-icon p{
+        margin-left: 0px;
+        font-size: 12px;
+
+     }
+    
+    
+    .section2-image{
+        width: 100%;
+        margin-top: 50px;
+        padding: 20px;
+
+    
+    }
+    .section2-image img{
+        width: 100%;
+        
+    }
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+    /*section2*/
+    .section-two{
+        margin: auto;
+        width: 80%;
+    }
+     .section2-container{
+        width: 100%;
+        margin-top: 15px;        
+     }
+     .section2-container h2{
+        font-size: 30px;
+     }
+     .section2-container h2 span{
+        font-size: 25px;    
+     }
+     .section2-container p{
+        font-size: 20px;
+        margin-top: 25px;
+    
+     }
+     .section2-icons{
+        width: 100%;
+    
+    }
+    .section2-icons .section2-icon i{
+        font-size: 20px;
+    }
+ 
+    
+    
+    .section2-image{
+        width: 100%;
+        margin-top: 50px;
+        padding-right: 20px;
+
+    
+    }
+  
+}
+
+/*section3*/
+
+.section3{
+    background-image: url(../images/resturant\ setting.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+/*section4*/
+.section4{
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+}
+.section4-container{
+    margin: auto;
+    width: 80%;
+}
+    
+
+.section4-container h2{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+    
+}
+.section4-container h2 span{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    color: #c1ab84;
+}
+
+.meal-cards{
+    text-align: center;
+    width: 100%;
+}
+.meal-card{
+   width: 30%;
+   margin-top: 25px;
+   float: left;
+   margin-left: 30px;
+}
+.clearfix{
+    clear: left;
+}
+.meal-card img{
+    width: 100%;
+}
+.meal-card h3 {
+    font-weight: 100;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    color: #070549;
+
+
+}
+.meal-card p{
+    color: rgb(7, 5, 73);
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Alegreya', serif;
+
+
+}
+.section4-button{
+    text-align: center;
+}
+.section4-button a{
+    text-align: center;
+    margin-top: 50px;
+    color: azure;
+    font-size: 17px;
+    background-color:#c1ab84;
+    font-weight: 400;
+    display: inline-block;
+    padding: 20px 30px ;
+    border-radius: 5px;
+
+}
+.section4-button a:hover{
+    background-color: #61515173;
+    color: black;
+}
+@media screen and (max-width: 576px){
+    /*section4*/
+   
+    .section4-container{
+        width: 100%;
+        
+    }
+        
+    
+    .section4-container h2{
+        padding-top: 15px;
+        font-size: 20px;
+        
+    }
+    .section4-container h2 span{
+    
+        font-size: 15px;
+    }
+    .meal-cards{
+        margin: auto;
+        width: 80%;
+
+    }
+    
+    .meal-card{
+    width: 80%;
+    text-align: center;
+    margin-top: 15px;
+    }
+
+    .meal-card h3 {
+        font-weight: 600;
+        font-size: 18px;
+    
+    }
+    .meal-card p{
+        font-size: 15px;
+    
+    }
+    
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+    /*section4*/
+
+    .section4-container{
+        width: 100%;
+        
+    }
+        
+    .section4-container h2{
+        padding-top: 15px;
+        font-size: 25px;
+        
+    }
+    .section4-container h2 span{
+    
+        font-size: 20px;
+    }
+    .meal-cards{
+        width: 60%;
+        margin: auto;
+       }
+    
+    .meal-card{
+      width: 100%;
+      margin-top: 15px;
+      float: none;
+      margin-left: 0px;
+    }
+    .meal-card img{
+        width: 100%;
+    }
+    .meal-card h3 {
+        font-weight: 600;
+        font-size: 20px;
+    
+    }
+    .meal-card p{
+        font-weight: 100;
+        font-size: 20px;
+    
+    
+    }
+}
+/*section4-part2*/
+.section4-part2{
+    width: 100%;
+    background-image: url(../images/resturant\ cover.jpg) ;
+    background-size: cover; 
+    text-align: center;
+    padding: 100px;
+}
+.section4-part2 i{
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    line-height: 50px;
+}
+.section4-part2 h2{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 50px;
+
+
+}
+.section4-part2 p{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.section4-part2 span{
+    margin-top: 15px;
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.section4-part2 .span2{
+    font-family: 'Alegreya', serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #615151;
+}
+
+@media screen and (max-width: 576px){
+    /*section4-part2*/
+    .section4-part2{
+        
+        padding: 20px;
+    }
+.section4-part2 i{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.section4-part2 h2{
+    font-size: 30px;
+
+
+}
+.section4-part2 p{
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+
+}
+.section4-part2 span{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.section4-part2 .span2{
+    font-size: 25px;
+}
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+    /*section4-part2*/
+    .section4-part2{
+        
+        padding: 20px;
+    }
+.section4-part2 i{
+    font-size: 40px;
+    margin-top: 25px;
+}
+.section4-part2 h2{
+    margin-top: 25px;
+    font-size: 35px;
+
+
+}
+.section4-part2 p{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 28px;
+
+}
+.section4-part2 span{
+    margin-top: 30px;
+    font-size: 25px;
+    
+}
+.section4-part2 .span2{
+    font-size: 15px;
+}
+}    
+
+/*section5*/
+.section5{
+    width: 100%;
+    background-color: #f8f8f8;
+    padding-bottom: 100px;
+
+}
+.section5-content{
+    margin: auto;
+    width: 80%;
+    background-color: #f8f8f8;
+    overflow: hidden;
+    
+}
+.section5-container{
+ 
+    width: 50%;
+    margin-top: 150px;
+    float: left;
+}
+.section5-container h2{
+
+    font-size: 32px;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+
+ }
+ .section5-container h3{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Alegreya', serif;
+
+ }
+ .section5-container p{
+    font-family: 'Alegreya', serif;
+
+    font-size: 19px;
+    line-height: 30px;
+    margin-top: 35px;
+}
+.section5-icons{
+    width: 100%;
+}
+.section5-icons .section5-icon i{
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+.section5-icons .section5-icon p{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: left;
+
+ }
+ .section5-content .map{
+    width: 50%;
+    float: left;
+    padding-top: 150px;
+ 
+}
+
+.section5-content iframe{
+    
+    width: 100%;
+
+}
+@media screen and (max-width: 576px){
+  
+   
+    .section5-container{
+     
+        width: 100%;
+        margin-top: 50px;
+    }
+    .section5-container h2{
+    
+        font-size: 30px;
+    
+     }
+     .section5-container h3{
+        font-size: 15px;
+    
+     }
+     .section5-container p{
+    
+        font-size: 15px;
+        margin-top: 25px;
+     }
+    .section5-icons .section5-icon i{
+        font-size: 15px; 
+    }
+ 
+     .section5-content .map{
+        width: 100%;
+        float: none;
+    }
+    
+    
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+   
+    .section5-container{
+     
+        width: 100%;
+        margin-top: 50px;
+    }
+    .section5-container h2{
+    
+        font-size: 30px;
+        font-weight: 600;
+    
+     }
+     .section5-container h3{
+        font-size: 25px;
+    
+     }
+     .section5-container p{
+    
+        font-size: 20px;
+        margin-top: 25px;
+     }
+    .section5-icons .section5-icon i{
+        font-size: 25px;
+        
+        
+    }
+ 
+     .section5-content .map{
+        width: 100%;
+        float: none;
+    }
+    
+}
+/*section6*/
+.section6{
+    width: 100%;
+    background-color: #403d38;
+}
+.section6-container{
+    
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+/*about us*/
+.about-us{
+    width: 23.5%;
+    float: left;
+    margin-right: 15px;
+    
+}
+.about-us h3{
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.about-us p{
+    font-size: 16px;
+    color: #969696;
+    line-height: 30px;
+}
+
+/*useful links*/
+.useful-links{
+    width: 23.5%;
+    float: left;
+    margin-left: 15px;
+
+    
+}
+.useful-links h3{
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.useful-links ul{
+    font-size: 16px;
+    color: #969696;
+    line-height: 30px;
+}
+.useful-links a{
+    color: #969696;
+}
+.useful-links a:hover{
+    color: #ffffff;
+}
+.useful-links ul li{
+    border-bottom: 1px solid #96969693 ;
+}
+
+
+/*opening*/
+
+.opening-hours{
+    width: 23.5%;
+    float: left;
+    margin-left: 15px;
+
+
+}
+.opening-hours h3{
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.opening-hours ul{
+    font-size: 16px;
+    color: #969696;
+    line-height: 30px;
+}
+.opening-hours ul li{
+    border-bottom: 1px solid #96969693
+
+}
+
+
+
+.opening-hours ul li p{
+    display: inline-block;
+}
+
+
+/*contact details*/
+
+.contact-details{
+    width: 23.5%;
+    float: left;
+    margin-left: 15px;
+    background-image: url(../images/contact-details-map.png) no-repeat  ;
+    background-size:auto;
+    background-position: center ;
+}
+.contact-details h3{
+    color: #f8f8f8;
+    font-size: 20px;
+}
+.contact-details ul li{
+    border-bottom: 1px solid #96969693
+
+
+}
+
+.contact-details ul li i{
+    font-size: 16px;
+    color: #969696;
+    line-height: 50px;
+
+}
+.contact-details ul li a{
+    font-size: 16px;
+    color: #969696;
+}
+.contact-details ul li a:hover{
+    color: white;
+}
+/*footer*/
+.footer-container{
+    width: 100%;
+    text-align: center;
+    background-color: #353330;
+    padding-bottom: 50px;
+}
+.footer-container img{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.footer-container p{
+    color: #777;
+    font-size: 18px;
+}
+
+.footer-icons{
+    padding: 20px;
+}
+.footer-icons a{
+    width: 40px;
+    font-size: 20px;
+    color: #8c8a86;
+    background-color: #484540;
+    border-radius: 100%;
+    padding: 20px;
+}
+.footer-icons a i{
+    width: 20px;
+    font-size: 25px;
+}
+.footer-icons .facebook:hover{
+background-color: #00437e;
+color: white;
+}
+.footer-icons .instagram:hover{
+    color: white;
+    background-color: #1d496f;
+}
+.footer-icons .twitter:hover{
+    color: white;
+    background-color: #0088ff;
+}
+.footer-icons .tumblr:hover{
+    color: white;
+    background-color: #070549;
+}
+
+
+
+@media screen and (max-width: 576px){
+
+
+/*about us*/
+.about-us{
+    width: 80%;
+    margin-right: 0;
+    
+}
+
+
+/*useful links*/
+.useful-links{
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 20px;
+
+    
+}
+
+
+
+/*opening*/
+
+.opening-hours{
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+
+
+/*contact details*/
+
+.contact-details{
+    width: 80%;
+    
+    margin-left: 0px;
+    
+}
+.footer-container img{
+    width: 70%;
+}
+
+}
+@media screen and (min-width:799px) and (max-width: 992px){
+
+/*about us*/
+.about-us{
+    width: 80%;
+    margin-right: 0;
+    
+}
+.about-us h3{
+    font-size: 25px;
+}
+.about-us p{
+    font-size: 20px;
+  
+}
+
+/*useful links*/
+.useful-links{
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 20px;
+
+    
+}
+.useful-links h3{
+    font-size: 25px;
+}
+
+
+/*opening*/
+
+.opening-hours{
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+
+
+/*contact details*/
+
+.contact-details{
+    width: 80%;
+    
+    margin-left: 0px;
+    
+}
+/*footer*/
+.footer-container{
+    width: 100%;
+    text-align: center;
+}
+
+}
+
+
+
